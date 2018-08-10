@@ -1,0 +1,148 @@
+body {
+    font-family: "Permanent Marker", cursive;
+    background-image: url("../images/dust_scratches.png");
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    height: 70px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+.bg-light {
+    background-color: #ffffff;
+}
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+#img {
+    background-image: url("../images/SuperHero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 250px;
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 5%;
+}
+#message {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+#word {
+    display: none;
+}
+#typebox {
+    border: 0;
+    outline: 0;
+    background-image: url(../images/dust_scratches.png);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: none;
+}
+#center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#hNav {
+    color: #fff;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2em;
+}
+#navbarSupportedContent {
+    z-index: 1;
+    padding-right: 10%;
+    background-color: #fff;
+}
+#move {
+    padding-left: 10%;
+    height: 100%;
+}
+#navbarSupportedContent {
+    z-index: 1;
+    padding-right: 10%;
+    background-color: #fff;
+}
+#chal {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    font-size: 2em;
+    letter-spacing: 10px;
+    text-align: center;
+}
+footer {
+    background-color: #666666;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding-top: 25px;
+    border-top: 5px solid #4aaaa5;
+    font-family: "Georgia", Times, Times New Roman, serif;
+}
+#orange {
+    background-color: orange;
+    width: 100%;
+    margin: 0;
+
+    padding-bottom: 50px;
+    border: 1px solid #ee7600;
+    font-size: 2em;
+}
+#head {
+    width: 100%;
+}
+#blue {
+    background-color: #4aaaa5;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    font-size: 2em;
+    border: 1px solid #cccccc;
+}
+.cen {
+    text-align: center;
+}

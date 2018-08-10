@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="icon" type="image/png" href="./assets/images/favicon.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Word Game</title>
+
+    </head>
+
+    <body onkeyup="compareArrays()" onload="game()">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <a id="move" class="navbar-brand" href="#">
+                <h1 id="hNav"> Jacob Morris</h1>
+            </a>
+
+            <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon ml-auto"></span>
+            </button>
+
+            <div class="collapse navbar-collapse ml-auto text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jacobugath.github.io/Jacobugath.gethub.io///////////">About
+
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jacobugath.github.io/Jacobugath.gethub.io///////////contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jacobugath.github.io/Jacobugath.gethub.io///////////portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row" id="head">
+                <h1 id="bigMessage">Guess the Punchline!!!</h1>
+            </div>
+
+
+            <div class="row" id="blue">
+
+                <div class="col-md-12" id="cen">
+                    Guess the comic book word that will appear when our hero punches his foe!!</div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div id="message">
+
+                <p>Press Any Key to Start. . .</p>
+
+            </div>
+        </div>
+        <div class="row">
+
+            <div id="img"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="chal">_ _ _!</div>
+            </div>
+        </div>
+
+
+        </div>
+        <div class="row" id="orange">
+
+            <div class="col-md-4">
+                <div class="wins">
+                    Wins:
+                    <p id="winNumber">0</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+
+                Letters Guessed:
+                <div id="guessed"></div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="guess">
+
+                    Guesses Left:
+                    <p id="guessNum">10</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <footer>
+
+                    <small>Copyright &copy; Jacob Morris 2018</small>
+                </footer>
+            </div>
+        </div>
+
+        <script src="assets/javascript/game.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
