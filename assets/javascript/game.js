@@ -114,6 +114,9 @@ const guesses = {
     },
     getNumber: function() {
         return this.number;
+    },
+    reset: function() {
+        this.number = 15;
     }
 };
 
@@ -174,10 +177,13 @@ const compareArrays = () => {
 };
 
 const game = () => {
+    guesses.reset();
+    document.getElementById("guessed").innerHTML = "";
     document.getElementById("guessNum").innerText = guesses.getNumber();
     document.getElementById("message").innerText =
         "Press Any Key to Start. . .";
     word.chooseWord();
+
     var chosen = word.getWord();
     console.log(chosen);
     blanks.createArray(chosen);
