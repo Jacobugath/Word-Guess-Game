@@ -144,7 +144,8 @@ const checkForWin = () => {
         document.getElementById("winNumber").innerHTML = wins.getNumber();
         game();
     } else if (guesses.getNumber() === 0) {
-        document.getElementById("bigMessage").innerHTML = "You Loose!";
+        document.getElementById("bigMessage").innerHTML = "You Loose! The Word Was: "+ word.chosenWord;
+
         game();
     }
 };
